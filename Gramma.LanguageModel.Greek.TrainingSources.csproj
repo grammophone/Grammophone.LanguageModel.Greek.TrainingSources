@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B6D89B1C-8E28-494A-9CEE-F7F8BA4CB1EB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gramma.LanguageModel.Greek.TrainingSources</RootNamespace>
+    <AssemblyName>Gramma.LanguageModel.Greek.TrainingSources</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Gramma.LanguageModel.Greek.TrainingSources.XML</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Gramma.LanguageModel.Greek.TrainingSources.XML</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CcatMorphologyParser.cs" />
+    <Compile Include="DiacriticsNormalizer.cs" />
+    <Compile Include="GreekEncoding.cs" />
+    <Compile Include="LXX\LXXSentenceTrainingSource.cs" />
+    <Compile Include="Perseus\Dialect.cs" />
+    <Compile Include="Perseus\Normalizer.cs" />
+    <Compile Include="Perseus\PerseusSentenceTrainingSource.cs" />
+    <Compile Include="Perseus\PerseusTaggedWordTrainingSource.cs" />
+    <Compile Include="Perseus\PerseusUntaggedWordTrainingSource.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tischendorf\TischendorfSentenceTrainingSource.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gramma.BetaImport\Gramma.BetaImport.csproj">
+      <Project>{739C342E-5FEC-45B5-B5B6-A73FAAED5F74}</Project>
+      <Name>Gramma.BetaImport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gramma.GenericContentModel\Gramma.GenericContentModel.csproj">
+      <Project>{79D2D4C7-C8DE-4F11-93ED-AA4E4D2FC974}</Project>
+      <Name>Gramma.GenericContentModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gramma.LanguageModel\Gramma.LanguageModel.csproj">
+      <Project>{5461B4B2-0832-42D5-AE04-6B2A7D4BF4DC}</Project>
+      <Name>Gramma.LanguageModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Visible classes.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Gramma.LanguageModel.Greek.TrainingSources.Perseus.PerseusTaggedWordTrainingSource">
+    <Position X="0.75" Y="1.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="AllowedDialects" Type="Gramma.LanguageModel.Greek.TrainingSources.Perseus.Dialect" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.188" Y="3.502" />
+        <Point X="3.188" Y="4.808" />
+        <Point X="2.75" Y="4.808" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAIAAAAIAQAAIAAAACCAAAgAgAACAAAAAAQAAA=</HashCode>
+      <FileName>Perseus\PerseusTaggedWordTrainingSource.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="AllowedDialects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Gramma.LanguageModel.TrainingSources.TaggedWordTrainingSource" Collapsed="true">
+    <Position X="1" Y="0.75" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Gramma.LanguageModel.TrainingSources.TrainingSource&lt;T&gt;">
+    <Position X="3.75" Y="1" Width="2.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Gramma.LanguageModel.TrainingSources.SentenceTrainingSource" Collapsed="true">
+    <Position X="3.75" Y="5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Gramma.LanguageModel.Greek.TrainingSources.Perseus.PerseusSentenceTrainingSource">
+    <Position X="0.75" Y="6.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>kIIAAAAKAAAAKAQAAAAAAAAAAAQgAAAACAAAARAYAAA=</HashCode>
+      <FileName>Perseus\PerseusSentenceTrainingSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.LanguageModel.Greek.TrainingSources.Tischendorf.TischendorfSentenceTrainingSource">
+    <Position X="3.5" Y="6.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gMAIgABIIAAASAUCBAAAAAAAABQgBAAAAACAAggYABA=</HashCode>
+      <FileName>Tischendorf\TischendorfSentenceTrainingSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.LanguageModel.Greek.TrainingSources.LXX.LXXSentenceTrainingSource">
+    <Position X="6.5" Y="6.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAIAABIAAAAQAUAAAAAAAAAAAAgAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>LXX\LXXSentenceTrainingSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gramma.LanguageModel.Provision.ReadOnlyLanguageFacet">
+    <Position X="6.5" Y="4" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="LanguageProvider" Type="Gramma.LanguageModel.Provision.LanguageProvider" FixedFromPoint="true">
+      <Path>
+        <Point X="8.188" Y="4" />
+        <Point X="8.188" Y="3.267" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="LanguageProvider" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Gramma.LanguageModel.Provision.LanguageProvider">
+    <Position X="6.5" Y="0.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Gramma.LanguageModel.Greek.TrainingSources.Perseus.Dialect">
+    <Position X="0.75" Y="4" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Perseus\Dialect.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
