@@ -1,4 +1,3 @@
-# Gramma.LanguageModel.Greek.TrainingSources
 This library provides training source input for the Greek language in order to be used by [Gramma.Inference](https://github.com/grammophone/Gramma.Inference), a part-of-speech tagging and lemmatization framework.
 
 From the [Perseus project](http://www.perseus.tufts.edu/hopper/opensource/download), it adapts a training source for `TaggedWordForm` items using class `PerseusTaggedWordTrainingSource` as well as a source of `TaggedSentence` items using class `PerseusSentenceTrainingSource`, which draws data provided by the [Perseus Ancient Greek and Latin Dependency Treebank](https://perseusdl.github.io/treebank_data/). 
@@ -12,10 +11,9 @@ The above are summarized in the following UML diagram.
 
 ![Greek training source classes](http://s10.postimg.org/lfgq5gmt5/Greek_training_sources.png)
 
-The actual files being used from the above sources are included inside the 'Training sets' directory of project [Gramma.TrainingApplication](https://github.com/grammophone/Gramma.TrainingApplication).
+The actual files being used from the above sources are included inside the '`Gramma.Inference.Trainer/Training sets`' directory of Visual Studio solution repository [Gramma.CoreDevelopment](https://github.com/grammophone/Gramma.CoreDevelopment).
 
 This project requires that the following projects be in sibling directories:
 * [Gramma.BetaImport](https://github.com/grammophone/Gramma.BetaImport)
 * [Gramma.GenericContentModel](https://github.com/grammophone/Gramma.GenericContentModel)
 * [Gramma.LanguageModel](https://github.com/grammophone/Gramma.LanguageModel)
-
