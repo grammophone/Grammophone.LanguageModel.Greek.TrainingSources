@@ -1,4 +1,4 @@
-#Gramma.LanguageModel.Greek.TrainingSources 
+#Grammophone.LanguageModel.Greek.TrainingSources 
 This library provides training source input for the Greek language in order to be used by [Grammophone.EnnounInference](https://github.com/grammophone/Grammophone.EnnounInference), a part-of-speech tagging and lemmatization framework.
 
 From the [Perseus project](http://www.perseus.tufts.edu/hopper/opensource/download), it adapts a training source for `TaggedWordForm` items using class `PerseusTaggedWordTrainingSource` as well as a source of `TaggedSentence` items using class `PerseusSentenceTrainingSource`, which draws data provided by the [Perseus Ancient Greek and Latin Dependency Treebank](https://perseusdl.github.io/treebank_data/). 
