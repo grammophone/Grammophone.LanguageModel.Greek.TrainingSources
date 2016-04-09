@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml;
-using Gramma.LanguageModel.TrainingSources;
-using Gramma.LanguageModel.Grammar;
+using Grammophone.LanguageModel.TrainingSources;
+using Grammophone.LanguageModel.Grammar;
 
-namespace Gramma.LanguageModel.Greek.TrainingSources.Perseus
+namespace Grammophone.LanguageModel.Greek.TrainingSources.Perseus
 {
 	/// <summary>
 	/// Sentence training source from the Perseus treebanks.

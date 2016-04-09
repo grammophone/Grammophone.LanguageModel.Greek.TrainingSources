@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Gramma.LanguageModel.Grammar;
-using Gramma.LanguageModel.TrainingSources;
+using Grammophone.LanguageModel.Grammar;
+using Grammophone.LanguageModel.TrainingSources;
 
-namespace Gramma.LanguageModel.Greek.TrainingSources.LXX
+namespace Grammophone.LanguageModel.Greek.TrainingSources.LXX
 {
 	/// <summary>
 	/// Sentences training source from the morphological Old Testament, as produced by the

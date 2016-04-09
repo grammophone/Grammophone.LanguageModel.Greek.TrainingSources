@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml;
-using Gramma.GenericContentModel;
-using Gramma.LanguageModel.Grammar;
-using Gramma.LanguageModel.TrainingSources;
+using Grammophone.GenericContentModel;
+using Grammophone.LanguageModel.Grammar;
+using Grammophone.LanguageModel.TrainingSources;
 using System.Globalization;
 
-namespace Gramma.LanguageModel.Greek.TrainingSources.Perseus
+namespace Grammophone.LanguageModel.Greek.TrainingSources.Perseus
 {
 	/// <summary>
 	/// Suitable for opening the perseus tagged words file 'greek.morph.xml'.

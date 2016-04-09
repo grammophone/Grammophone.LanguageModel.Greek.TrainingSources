@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Gramma.LanguageModel.Greek.TrainingSources.Perseus
+namespace Grammophone.LanguageModel.Greek.TrainingSources.Perseus
 {
 	/// <summary>
 	/// The BETA code string of all Perseus data seem to have lower case characters and numbers.

@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Gramma.LanguageModel.TrainingSources;
+using Grammophone.LanguageModel.TrainingSources;
 using System.IO;
 using System.Xml;
 
-namespace Gramma.LanguageModel.Greek.TrainingSources.Perseus
+namespace Grammophone.LanguageModel.Greek.TrainingSources.Perseus
 {
 	/// <summary>
 	/// Provides all the word forms inside the Perseus 'greek.morph.xml' file.

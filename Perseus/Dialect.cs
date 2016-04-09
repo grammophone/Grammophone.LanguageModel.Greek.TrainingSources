@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Gramma.GenericContentModel;
+using Grammophone.GenericContentModel;
 
-namespace Gramma.LanguageModel.Greek.TrainingSources.Perseus
+namespace Grammophone.LanguageModel.Greek.TrainingSources.Perseus
 {
 	/// <summary>
 	/// A specification of a dialect.

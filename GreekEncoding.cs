@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Gramma.LanguageModel.Greek.TrainingSources
+namespace Grammophone.LanguageModel.Greek.TrainingSources
 {
 	/// <summary>
 	/// Encoding type for greek literals.

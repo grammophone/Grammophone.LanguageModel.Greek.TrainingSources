@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Gramma.LanguageModel.Grammar;
+using Grammophone.LanguageModel.Grammar;
 
-namespace Gramma.LanguageModel.Greek.TrainingSources
+namespace Grammophone.LanguageModel.Greek.TrainingSources
 {
 	/// <summary>
 	/// Interprets CCAT morphological annotations, which are based on Packard's annotations.

@@ -8,8 +8,8 @@
     <ProjectGuid>{B6D89B1C-8E28-494A-9CEE-F7F8BA4CB1EB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Gramma.LanguageModel.Greek.TrainingSources</RootNamespace>
-    <AssemblyName>Gramma.LanguageModel.Greek.TrainingSources</AssemblyName>
+    <RootNamespace>Grammophone.LanguageModel.Greek.TrainingSources</RootNamespace>
+    <AssemblyName>Grammophone.LanguageModel.Greek.TrainingSources</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -22,7 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Gramma.LanguageModel.Greek.TrainingSources.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\Grammophone.LanguageModel.Greek.TrainingSources.XML</DocumentationFile>
     <NoWarn>1591</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -33,7 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Gramma.LanguageModel.Greek.TrainingSources.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Grammophone.LanguageModel.Greek.TrainingSources.XML</DocumentationFile>
     <NoWarn>1591</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -60,17 +60,17 @@
     <Compile Include="Tischendorf\TischendorfSentenceTrainingSource.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Gramma.BetaImport\Gramma.BetaImport.csproj">
+    <ProjectReference Include="..\Grammophone.BetaImport\Grammophone.BetaImport.csproj">
       <Project>{739C342E-5FEC-45B5-B5B6-A73FAAED5F74}</Project>
-      <Name>Gramma.BetaImport</Name>
+      <Name>Grammophone.BetaImport</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Gramma.GenericContentModel\Gramma.GenericContentModel.csproj">
+    <ProjectReference Include="..\Grammophone.GenericContentModel\Grammophone.GenericContentModel.csproj">
       <Project>{79D2D4C7-C8DE-4F11-93ED-AA4E4D2FC974}</Project>
-      <Name>Gramma.GenericContentModel</Name>
+      <Name>Grammophone.GenericContentModel</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Gramma.LanguageModel\Gramma.LanguageModel.csproj">
+    <ProjectReference Include="..\Grammophone.LanguageModel\Grammophone.LanguageModel.csproj">
       <Project>{5461B4B2-0832-42D5-AE04-6B2A7D4BF4DC}</Project>
-      <Name>Gramma.LanguageModel</Name>
+      <Name>Grammophone.LanguageModel</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

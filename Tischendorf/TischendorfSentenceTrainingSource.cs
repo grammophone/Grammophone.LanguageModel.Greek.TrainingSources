@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Gramma.LanguageModel.TrainingSources;
+using Grammophone.LanguageModel.TrainingSources;
 using System.Text.RegularExpressions;
 using System.IO;
-using Gramma.LanguageModel.Grammar;
+using Grammophone.LanguageModel.Grammar;
 
-namespace Gramma.LanguageModel.Greek.TrainingSources.Tischendorf
+namespace Grammophone.LanguageModel.Greek.TrainingSources.Tischendorf
 {
 	/// <summary>
 	/// Sentence training source from a Tischendorf's New Testament morphological file.
