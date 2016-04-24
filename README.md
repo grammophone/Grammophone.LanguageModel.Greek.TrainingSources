@@ -12,7 +12,7 @@ The above are summarized in the following UML diagram.
 
 ![Greek training source classes](http://s10.postimg.org/lfgq5gmt5/Greek_training_sources.png)
 
-The actual files being used from the above sources are included inside the '`Grammophone.EnnounInference.Trainer/Training sets`' directory of Visual Studio solution repository [Grammophone.CoreDevelopment](https://github.com/grammophone/Grammophone.CoreDevelopment).
+The actual files being used from the above sources are included inside the '`Grammophone.EnnounInference.Trainer/Training sets`' directory of Visual Studio solution repository [Grammophone.Ennoun.CoreDevelopment](https://github.com/grammophone/Grammophone.Ennoun.CoreDevelopment).
 
 This project requires that the following projects be in sibling directories:
 * [Grammophone.BetaImport](https://github.com/grammophone/Grammophone.BetaImport)
